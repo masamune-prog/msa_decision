@@ -37,13 +37,24 @@ regenerated from this file alone**, with no GPU and no fold data — see
 
 ### The input dataset
 
-`final_dataset.csv` (82 MB; 3,676 designs, 312 columns, 16 targets, 394
-measured binders) is **not redistributed here**. It comes from the benchmark
-published by Overath et al.
+`final_dataset.csv` (82 MB; 3,676 rows, 312 columns, 16 targets, 394 measured
+binders) is **not redistributed here** — it is too large to ship and it is not
+ours. Download it from the authors' Zenodo deposit:
 
-> ⚠️ **Fill in the exact citation and DOI/download URL before publishing this
-> repository.** Replication is impossible without it, and the file is too large
-> and not ours to ship.
+> Overath, M. D., Rygaard, A., & Jenkins, T. P. (2025). *Dataset for:
+> Predicting Experimental Success in De Novo Binder Design: A Meta-Analysis of
+> 3,766 Experimentally Characterised Binders* (v1.0.0) [Data set]. Technical
+> University of Denmark. Zenodo. https://doi.org/10.5281/zenodo.15722219
+
+```bash
+cd "$MSA_DECISION_ROOT"
+curl -L -O https://zenodo.org/records/15722219/files/final_dataset.csv
+```
+
+The deposit is CC BY 4.0, so **cite it in anything you publish from this
+pipeline**. It also carries the original AF2 / AF3 / Boltz-1 / ColabFold
+prediction outputs (9.3 GB in total); none of those are needed here, since this
+study re-folds everything from scratch under controlled alignment conditions.
 
 The columns this pipeline reads are: `binder_id`, `target_id`, `binder` (the
 label), `A_seq` (binder), `B_seq` / `target_subchain_<chain>_seq` (target
@@ -294,6 +305,11 @@ to pick them up.
 
 ## License
 
-The code here is ours. AlphaFold 3, its model parameters, and the benchmark
-dataset are each governed by their own terms — see the AlphaFold 3 repository
-and the Overath et al. publication.
+The code here is ours. Two dependencies carry their own terms:
+
+- **AlphaFold 3** and its model parameters — see the AlphaFold 3 repository;
+  the weights are obtained from DeepMind under their terms and are not
+  redistributable.
+- **The benchmark dataset** — CC BY 4.0, Overath et al. 2025,
+  [10.5281/zenodo.15722219](https://doi.org/10.5281/zenodo.15722219).
+  Attribution is required.
