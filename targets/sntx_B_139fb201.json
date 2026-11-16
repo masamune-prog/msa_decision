@@ -1,0 +1,16 @@
+{
+  "name": "sntx_B_139fb201",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MICYNQQSSQPPTTKTCSETSCYKKTWRDHRGTIIERGCGCPKVKPGIKLHCCRTDKCNN"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

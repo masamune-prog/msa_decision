@@ -1,0 +1,16 @@
+{
+  "name": "TrkA_B_1ce2077f",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "VSFPASVQLHTAVEMHHWCIPFSVDGQPAPSLRWLFNGSVLNETSFIFTEFLEPAANETVRHGCLRLNQPTHVNNGNYTLLAANPFGQASASIMAAFMDNP"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

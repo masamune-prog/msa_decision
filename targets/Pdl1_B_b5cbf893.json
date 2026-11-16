@@ -1,0 +1,16 @@
+{
+  "name": "Pdl1_B_b5cbf893",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "NAFTVTVPKDLYVVEYGSNMTIECKFPVEKQLDLAALIVYWEMEDKNIIQFVHGEEDLKVQHSSYRQRARLLKDQLSLGNAALQITDVKLQDAGVYRCMISYGGADYKRITVKVN"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

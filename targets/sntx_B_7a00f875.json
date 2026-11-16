@@ -1,0 +1,16 @@
+{
+  "name": "sntx_B_7a00f875",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MICHNQQSSQPPTTKTCSEGQCYKKTWRDHRGTIIERGCGCPTVKPGIHISCCASDKCNA"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

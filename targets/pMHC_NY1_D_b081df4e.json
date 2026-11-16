@@ -1,0 +1,16 @@
+{
+  "name": "pMHC_NY1_D_b081df4e",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "SLLMWITQC"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

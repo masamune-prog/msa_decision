@@ -1,0 +1,16 @@
+{
+  "name": "VirB8_B_fb0c4c1f",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "ANPYISVANIMLQNYVKQREKYNYDTLKEQFTFIKNASTSIVYMQFANFMNIDNSLSPVIRYQKLYRRSINIISINNINNNEATVTFESLAQNNTGEILENMLWEAKIGFIMDSISTNMPFHFIVTSYKLKLLRNKNQ"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

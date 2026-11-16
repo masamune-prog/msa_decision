@@ -1,0 +1,16 @@
+{
+  "name": "FGFR2_B_d7e5c674",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "RSPHRPILQAGLPANASTVVGGDVEFVCKVYSDAQPHIQWIKHVPYLKVLKAAGVNTTDKEIEVLYIRNVTFEDAGEYTCLAGNSIGISFHSAWLTVLPAP"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

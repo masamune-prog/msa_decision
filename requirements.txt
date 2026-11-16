@@ -1,0 +1,5 @@
+# Analysis and figures only. Folding itself runs inside the AlphaFold 3
+# repository's own environment (see README, "Installing AlphaFold 3").
+# Versions are the ones these results were produced with; Python 3.12.
+numpy==2.5.4
+matplotlib==3.11.2

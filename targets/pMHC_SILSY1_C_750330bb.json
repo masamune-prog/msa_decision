@@ -1,0 +1,16 @@
+{
+  "name": "pMHC_SILSY1_C_750330bb",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRD"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

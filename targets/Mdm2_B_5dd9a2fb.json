@@ -1,0 +1,16 @@
+{
+  "name": "Mdm2_B_5dd9a2fb",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

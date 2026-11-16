@@ -1,0 +1,16 @@
+{
+  "name": "pMHC_NY1_C_5b44026b",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

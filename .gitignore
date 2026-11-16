@@ -1,0 +1,27 @@
+# ---- experiment work directory ------------------------------------------
+# Everything the pipeline produces lives under $MSA_DECISION_ROOT, outside
+# this repo. These patterns are a safety net in case it is ever run in-tree.
+targets/*_data.json
+msa_out/
+e1_inputs*/ e1_out*/ e1_retest*/
+e2_in_*/ e2s*_in_*/ e2_out/ e2_seeds_out/ e2*_shard*/
+e3_in/ e3_out/ e3_shard*/ e3b_in/ e3b_out/ e3b_src/
+ex_in_*/ ex_out/ ex2_in_*/ ex2_out/ ex*_shard*/
+tm_in_*/ tm_out/ tm_shard*/ tmpl_cif/
+mk_in/ mk_out/
+sched/
+
+# ---- bulk inputs and model weights --------------------------------------
+final_dataset.csv
+*.zst
+*.zstd
+*.tar
+af3.bin*
+
+# ---- logs, pids, scratch -------------------------------------------------
+*.log
+*_pids.txt
+__pycache__/
+*.pyc
+.venv/
+venv/

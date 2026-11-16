@@ -1,0 +1,16 @@
+{
+  "name": "pMHC_SILSY1_D_54b74fed",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "RVTDESILSY"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}
